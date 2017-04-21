@@ -16,7 +16,7 @@ private:
     std::vector< std::shared_ptr<DataReceiver> > make_vector(std::shared_ptr<DataReceiver>);
     std::vector< void(*)(int) > make_vector(void(*)(int));
 public:
-    Data(){};
+    Data();
     void refresh();
     void addPin(std::string, int);
     void addListener(std::string, std::shared_ptr<DataReceiver>);
