@@ -28,9 +28,9 @@ private:
     }
 public:
     Data(){
-        
-    }
 
+    }
+    
     void refresh(){
 
     }
